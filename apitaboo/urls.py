@@ -20,6 +20,7 @@ urlpatterns = [
     re_path(r'^auth/register/$', CreateUserAPIView.as_view(), name='auth_user_create'),
     re_path(r'^auth_user_create/$', LogoutUserAPIView.as_view(), name='auth_user_logout'),
     
+    
 
 ]
 
